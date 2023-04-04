@@ -1,0 +1,38 @@
+body{
+  padding: 20px;
+  font-family: sans-serif;
+}
+img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+header{
+  display: flex;
+  flex-direction: column;
+}
+h2{
+  border: 1px;
+  border-style: none none groove none;
+  border-color: rgba(66, 63, 63, 0.404);
+  color: rgb(30, 30, 105);
+}
+.experience{
+  display: flex;
+flex-direction: column;
+
+}
+.aside{
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.aside > :nth-child(3){
+  grid-column: 2/3;
+}
+.aside > :nth-child(4){
+  grid-column: 2/3;
+}
+.foot{
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
